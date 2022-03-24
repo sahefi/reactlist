@@ -67,7 +67,7 @@ export default class Gallery extends Component {
             }
 
 
-    /*Add = () => {
+    Add = () => {
         // menampilkan komponen modal
         // $("#modal").modal("show")
         this.setState({
@@ -79,7 +79,7 @@ export default class Gallery extends Component {
             harga: 0,
             action: "insert"
         })
-    }*/
+    }
 
     Edit = (item) => {
         // menampilkan komponen modal
@@ -160,7 +160,7 @@ export default class Gallery extends Component {
         }
     }
 
-   /* addToCart = (selectedItem) => {
+   addToCart = (selectedItem) => {
         // membuat sebuah variabel untuk menampung cart sementara
         let tempCart = []
         // cek eksistensi dari data cart pada localStorage
@@ -186,7 +186,7 @@ export default class Gallery extends Component {
         localStorage.setItem("cart", JSON.stringify(tempCart))
         }
         }
-        }*/
+        }
 
 
 
